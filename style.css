@@ -1,0 +1,69 @@
+body{
+    color:white;
+    font-weight: bolder;
+    background-color:#091921;
+}
+.container{
+    margin-left: 35vw;
+    width: 25vw;
+    box-shadow: 3px 3px 4px black,
+    -3px -3px 3px black;
+}
+table{
+    border-collapse: collapse;
+    width: 25.1vw;
+    background-color: rgba(21, 21, 22, 0.753);
+}
+td{
+    cursor: pointer;
+    width: 5vw;
+    height: 9vh;
+    text-align: center;
+}
+td:hover{
+    background-color: rgb(233, 143, 8);
+}
+.main{
+    font-size: 5vh;
+    font-weight:bolder;
+    height: 12vh;
+}
+.equal{
+    background-color: rgb(252, 79, 252);
+}
+.equal:hover{
+    background-color: rgb(252, 79, 252);
+}
+.C{
+    background-color: rgb(4, 218, 247);
+}
+.C:hover{
+    background-color: rgb(4, 218, 247);
+}
+.inp{
+    font-size: 3vh;
+    outline: none;
+    background-color: white;
+    height: 15vh;
+    width: 24.7vw;
+    border:none;
+}
+h1{
+    color: springgreen;
+    text-align: center;
+}
+@media only screen and (max-width:1024px) {
+    .container{
+        width: 90vw;
+        margin-left: 2vw;
+    }
+    table{
+        width: 90vw;
+    }
+    td{
+        width: 20vw;
+    }
+    .inp{
+        width: 88vw;
+    }
+}
